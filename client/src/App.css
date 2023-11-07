@@ -1,0 +1,235 @@
+.nav-link_home {
+    z-index: 100;
+    color: #ccc;
+    text-decoration: none;
+    transition: .3s ease color;
+}
+
+.nav-link_home:hover {
+    color: #ffffff;
+}
+.page {
+    margin-top: 150px;
+}
+
+.navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 8000;
+}
+
+.table-product {
+    margin: 10px 0;
+}
+.table-line td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+.drop-list_category {
+    position: absolute;
+    top: 90px; left: 0;
+    width: 100%;
+    height: 500px;
+    background: #f5f5f5;
+    margin-top: -20px;
+    display: none;
+    z-index: 100;
+}
+.prod-description p{
+    font-size: 24px;
+    font-weight: 500;
+}
+.active {
+    display: block;
+}
+.dropdown-modal{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.page-shop {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.prod-list{
+    margin: 0 20px 20px 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.for-ul {
+    list-style-type: none;
+    height: 500px;
+    overflow-y: scroll;
+    margin: 0;
+    padding: 0;
+}
+
+.for-ul li {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    transition: background-color ease .3s;
+    padding: 10px 0;
+}
+
+.for-ul a {
+    text-decoration: none;
+    color: #000;
+    padding: 0 0 0 10px;
+}
+
+.for-ul li:hover {
+    border-left: 5px solid #ccc;
+    background: #ffffff;
+}
+
+.for-ul::-webkit-scrollbar {
+    width: 8px;               /* ширина всей полосы прокрутки */
+}
+
+.for-ul::-webkit-scrollbar-track {
+    background: #fff;        /* цвет зоны отслеживания */
+}
+
+.for-ul::-webkit-scrollbar-thumb {
+    background-color: #ccc;    /* цвет бегунка */
+    border: 0;  /* отступ вокруг бегунка */
+}
+.text{
+    text-decoration: none;
+    transition: .3s ease color;
+    color: black;
+    margin-top: 5px;
+}
+.text-product-item{
+    text-decoration: none;
+    transition: .3s ease color;
+    color: black;
+    margin-left: 5px;
+}
+.category-list_left {
+    display: flex;
+}
+
+.category-list_left div {
+    margin: 20px;
+}
+
+.category-list_left div ul{
+    list-style: none;
+}
+
+.product-img {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.image-product_box {
+    overflow: hidden;
+}
+
+.image-product {
+    height: 500px;
+    width: auto;
+}
+.image-basket {
+    height: 100px;
+    width: 100px;
+}
+.card-basket{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.basket-item-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.basket-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.basket-item-name {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.product-price {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.prod-description {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+    padding-left: 50px;
+    border: 1px solid #ccc;
+}
+.form-control{
+    margin-top: 5px;
+}
+
+.dropmenu {
+    width: 200px;
+    padding: 10px;
+}
+
+.dropmenu Button {
+    width: 100%;
+    margin: 5px 0;
+}
+
+.card_history {
+    cursor: pointer;
+    transition: background ease .3s;
+}
+
+.card_history:hover {
+    background: rgba(0, 0, 0, .1);
+}
+
+.modal_order-wrapper {
+    position: absolute;
+    left: 0; top: 0;
+    z-index: 10;
+    background: rgba(0, 0, 0, .3);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal_order {
+    position: absolute;
+    background: #fff;
+    width: 600px;
+    border-radius: 10px;
+    padding: 20px 40px;
+    z-index: 9999;
+}
+
+.product-name {
+    max-width: 200px; /* Установите нужную максимальную ширину */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
